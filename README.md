@@ -9,6 +9,12 @@ http://localhost:8080/actuator
 ```
 http://localhost:8080/actuator/metrics
 ```
+ 
+#### We can try to retreive the JVM usage information as follows: 
+ 
+```
+http://localhost:8080/actuator/metrics
+```
 
 ```
 docker run -d -p 3000:3000 grafana/grafana
