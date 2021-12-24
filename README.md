@@ -50,23 +50,43 @@ http://localhost:9090
 http://localhost:9090/targets
 
 ```
+Setup a webpage that shows a moving average value in table or graph of response time for
+every 10 second, 1 minute and 1-hour
+
+#### We can now redirect to our home page and select a metric from the list and click Execute. Here we can set teh time for every 10 second, 1 minute and 1-hour for the graphical response. 
+  
+
+Grafana offers a rich UI where you can build up custom graphs quickly and create a dashboard out of many graphs in no time. 
+
+#### If we want to have individual graphs then Grafna can pull data from various sources like, Prometheus or InfluxDB. THe Grafna also helps us for producing custom graphs. 
 
 
-#### Is Prometheus istening to our Spring app? let's check it 
+### For lauching the grafana using docker image we run the following:
+
+
 ```
-http://localhost:9090/targets
+$ docker run -d -p 3000:3000 grafana/grafana
 
 ```
 
-
-#### Is Prometheus istening to our Spring app? let's check it 
+### Now we can visit 
 ```
-http://localhost:9090/targets
-
+http://localhost:3000
 ```
 
-Let's go back to the home page and select a metric from the list and click Execute:
+#### We can choose admin as username and password by dafult. After logging in let's choose the Prometheus as our data source. To make sure wheather the Prometheus is running we can check by caling the URL 
+
+```
+http://localhost:9090
+
+```
+
+### On the GUI we should select the access through a browser and setting up HTTP method as GET. 
 
 
+https://grafana.com/grafana/dashboards/4701
+
+
+As previously said, Grafana has a ton of pre-built dashboards. For Spring Boot projects, the JVM dashboard is popular:
 
 
