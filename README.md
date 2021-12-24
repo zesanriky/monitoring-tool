@@ -42,13 +42,8 @@ http://localhost:9090
 http://localhost:9090/targets
 
 ```
-Setup a webpage that shows a moving average value in table or graph of response time for
-every 10 second, 1 minute and 1-hour
-
 #### We can now redirect to our home page and select a metric from the list and click Execute. Here we can set teh time for every 10 second, 1 minute and 1-hour for the graphical response. 
   
-
-Grafana offers a rich UI where you can build up custom graphs quickly and create a dashboard out of many graphs in no time. 
 
 #### If we want to have individual graphs then Grafna can pull data from various sources like, Prometheus or InfluxDB. THe Grafna also helps us for producing custom graphs. 
 
