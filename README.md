@@ -18,7 +18,8 @@ http://localhost:8080/actuator/metrics/jvm.memoery.used
 
 #### Prometheus is used as time series database. We can see the result of new endpoint as follows:
 
-```http://localhost:8080/actuator/prometheus
+```
+http://localhost:8080/actuator/prometheus
 ```
 
 ####  The Prometheus database wil store the metric data after pulling it over HTTP. 
