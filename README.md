@@ -21,15 +21,6 @@ http://localhost:8080/actuator/metrics/jvm.memoery.used
 ```http://localhost:8080/actuator/prometheus
 ```
 
-
-
-#### Prometheus is used as time series database. We can see the result of new endpoint as follows:
-
-```http://localhost:8080/actuator/prometheus
-```
-
-
-
 ####  The Prometheus database wil store the metric data after pulling it over HTTP. 
 
 
@@ -78,15 +69,16 @@ http://localhost:3000
 
 ```
 http://localhost:9090
-
 ```
 
-### On the GUI we should select the access through a browser and setting up HTTP method as GET. 
+### On the GUI we should select the access through a browser and setting up HTTP method as GET.
 
+### If everything is working fine then it would displays the message called "Data source is working"    
 
+### There are some pre-built dashboards. But for Spring Boot projects, JVM can be used.
+```
 https://grafana.com/grafana/dashboards/4701
+```
 
-
-As previously said, Grafana has a ton of pre-built dashboards. For Spring Boot projects, the JVM dashboard is popular:
 
 
