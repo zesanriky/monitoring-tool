@@ -81,5 +81,9 @@ http://localhost:9090
 https://grafana.com/grafana/dashboards/4701
 ```
 
+#### Input the URL for the dashboard, select "Already created Prometheus datasource" and then click Import:
+
+#### If we input the URL on the dashboard and select "Already created Prometheus datasource" and then click Import. Then we should be able to see the individual graphs or tebular format. 
+
 
 
