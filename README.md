@@ -72,11 +72,11 @@ http://localhost:3000
 http://localhost:9090
 ```
 
-### On the GUI we should select the access through a browser and setting up HTTP method as GET.
+#### On the GUI we should select the access through a browser and setting up HTTP method as GET.
 
-### If everything is working fine then it would displays the message called "Data source is working"    
+#### If everything is working fine then it would displays the message called "Data source is working"    
 
-### There are some pre-built dashboards. But for Spring Boot projects, JVM can be used.
+#### There are some pre-built dashboards. But for Spring Boot projects, JVM can be used.
 ```
 https://grafana.com/grafana/dashboards/4701
 ```
